@@ -1,0 +1,288 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>CFLint Report</title>
+<style type="text/css">
+		.tablerow0 {
+			background: #EEEEEE;
+		}
+
+		.tablerow1 {
+			background: white;
+		}
+
+		.detailrow0 {
+			background: #EEEEEE;
+		}
+
+		.detailrow1 {
+			background: white;
+		}
+
+		.tableheader {
+			background: #b9b9fe;
+			font-size: larger;
+		}
+		</style>
+</head>
+<body>
+<h1>CFLint Report</h1>
+<p>Produced using <a href="https://github.com/ryaneberly/CFLint">CFLint</a>1.1.0.</p>
+<p>Project: 
+			</p>
+<h2>Metrics</h2>
+<p>0 lines of code analyzed,
+	in 0 classes, 
+	in 0 packages.</p>
+<table width="500" cellpadding="5" cellspacing="2">
+<tr class="tableheader">
+<th align="left">Metric</th>
+<th align="right">Total</th>
+<th align="right">Density*</th>
+</tr>
+<tr class="tablerow0">
+<td>High Severity Warnings</td>
+<td align="right"/>
+<td align="right">0.00</td>
+</tr>
+<tr class="tablerow1">
+<td>Medium Severity Warnings</td>
+<td align="right"/>
+<td align="right">0.00</td>
+</tr>
+<tr class="$totalClass">
+<td>
+<b>Total Warnings</b>
+</td>
+<td align="right">
+<b>0</b>
+</td>
+<td align="right">
+<b>0.00</b>
+</td>
+</tr>
+</table>
+<p>
+<i>(* Defects per Thousand lines of non-commenting source statements)</i>
+</p>
+<p>
+<br/>
+<br/>
+</p>
+<h2>Summary</h2>
+<table width="500" cellpadding="5" cellspacing="2">
+<tr class="tableheader">
+<th align="left">Warning Type</th>
+<th align="right">Number</th>
+</tr>
+<tr class="tablerow0">
+<td>
+<a href="#Warnings_CFLint">CFLint Warnings</a>
+</td>
+<td align="right">10</td>
+</tr>
+<tr class="tablerow1">
+<td>
+<b>Total</b>
+</td>
+<td align="right">
+<b>10</b>
+</td>
+</tr>
+</table>
+<p>
+<br/>
+<br/>
+</p>
+<h1>Warnings</h1>
+<p>Click on each warning link to see a full description of the issue, and
+	    details of how to resolve it.</p>
+<h2>
+<a name="Warnings_CFLint">CFLint Warnings</a>
+</h2>
+<table class="warningtable" width="100%" cellspacing="2" cellpadding="5">
+<tr class="tableheader">
+<th align="left">Warning</th>
+<th align="left">Severity</th>
+<th align="left">Details</th>
+</tr>
+<tr class="tablerow1">
+<td width="20%" valign="top">
+<a href="#PLUGIN_ERROR">Error in plugin: </a>
+</td>
+<td width="10%" valign="top">Unknown</td>
+<td width="70%">
+<p>Error in plugin: <br/>
+<br/>
+<br/>Expression: _</p>
+</td>
+</tr>
+<tr class="tablerow0">
+<td width="20%" valign="top">
+<a href="#PLUGIN_ERROR">0</a>
+</td>
+<td width="10%" valign="top">Unknown</td>
+<td width="70%">
+<p>0<br/>
+<br/>
+<br/>Expression: </p>
+</td>
+</tr>
+<tr class="tablerow1">
+<td width="20%" valign="top">
+<a href="#PLUGIN_ERROR">Error in plugin: </a>
+</td>
+<td width="10%" valign="top">Unknown</td>
+<td width="70%">
+<p>Error in plugin: <br/>
+<br/>
+<br/>Expression: new Underscore()</p>
+</td>
+</tr>
+<tr class="tablerow0">
+<td width="20%" valign="top">
+<a href="#PLUGIN_ERROR">-1</a>
+</td>
+<td width="10%" valign="top">Unknown</td>
+<td width="70%">
+<p>-1<br/>
+<br/>
+<br/>Expression: </p>
+</td>
+</tr>
+<tr class="tablerow1">
+<td width="20%" valign="top">
+<a href="#PLUGIN_ERROR">Error in plugin: </a>
+</td>
+<td width="10%" valign="top">Unknown</td>
+<td width="70%">
+<p>Error in plugin: <br/>
+<br/>
+<br/>Expression: _.memoize( function (n)   {
+sleep(400 * n);
+    return n;
+
+  })</p>
+</td>
+</tr>
+<tr class="tablerow0">
+<td width="20%" valign="top">
+<a href="#PLUGIN_ERROR">0</a>
+</td>
+<td width="10%" valign="top">Unknown</td>
+<td width="70%">
+<p>0<br/>
+<br/>
+<br/>Expression: </p>
+</td>
+</tr>
+<tr class="tablerow1">
+<td width="20%" valign="top">
+<a href="#VAR_HAS_PREFIX_OR_POSTFIX">Variable has prefix or postfix thisTime and could be named better.</a>
+</td>
+<td width="10%" valign="top">Unknown</td>
+<td width="70%">
+<p>Variable has prefix or postfix thisTime and could be named better.<br/>
+<br/>
+<br/>Expression: &lt;cfscript&gt;
+_ = new Underscore();
+//If you can pronounce this you are Teh Uber Nerd
+slowX = _.memoize(function(n) { sleep(400*n); return n; });
+thisTime = getTickCount();
+slowX(4);
+anotherTime = getTic</p>
+</td>
+</tr>
+<tr class="tablerow0">
+<td width="20%" valign="top">
+<a href="#VAR_INVALID_NAME">Variable Underscore is not a valid name. Please use CamelCase or underscores.</a>
+</td>
+<td width="10%" valign="top">Unknown</td>
+<td width="70%">
+<p>Variable Underscore is not a valid name. Please use CamelCase or underscores.<br/>
+<br/>
+<br/>Expression: &lt;cfscript&gt;
+_ = new Underscore();
+//If you can pronounce this you are Teh Uber Nerd
+slowX = _.memoize(function(n) { sleep(400*n); return n; });
+thisTime = getTickCount();
+slowX(4);
+anotherTime = getTic</p>
+</td>
+</tr>
+<tr class="tablerow1">
+<td width="20%" valign="top">
+<a href="#VAR_INVALID_NAME">Variable slowX is not a valid name. Please use CamelCase or underscores.</a>
+</td>
+<td width="10%" valign="top">Unknown</td>
+<td width="70%">
+<p>Variable slowX is not a valid name. Please use CamelCase or underscores.<br/>
+<br/>
+<br/>Expression: &lt;cfscript&gt;
+_ = new Underscore();
+//If you can pronounce this you are Teh Uber Nerd
+slowX = _.memoize(function(n) { sleep(400*n); return n; });
+thisTime = getTickCount();
+slowX(4);
+anotherTime = getTic</p>
+</td>
+</tr>
+<tr class="tablerow0">
+<td width="20%" valign="top">
+<a href="#VAR_TOO_SHORT">Variable _ should be longer than 3 characters.</a>
+</td>
+<td width="10%" valign="top">Unknown</td>
+<td width="70%">
+<p>Variable _ should be longer than 3 characters.<br/>
+<br/>
+<br/>Expression: &lt;cfscript&gt;
+_ = new Underscore();
+//If you can pronounce this you are Teh Uber Nerd
+slowX = _.memoize(function(n) { sleep(400*n); return n; });
+thisTime = getTickCount();
+slowX(4);
+anotherTime = getTic</p>
+</td>
+</tr>
+</table>
+<p>
+<br/>
+<br/>
+</p>
+<p>
+<br/>
+<br/>
+</p>
+<h1>
+<a name="Details">Warning Types</a>
+</h1>
+<h2>
+<a name="PLUGIN_ERROR">PLUGIN_ERROR</a>
+</h2>
+<p>
+<br/>
+<br/>
+</p>
+<h2>
+<a name="VAR_HAS_PREFIX_OR_POSTFIX">VAR_HAS_PREFIX_OR_POSTFIX</a>
+</h2>
+<p>
+<br/>
+<br/>
+</p>
+<h2>
+<a name="VAR_INVALID_NAME">VAR_INVALID_NAME</a>
+</h2>
+<p>
+<br/>
+<br/>
+</p>
+<h2>
+<a name="VAR_TOO_SHORT">VAR_TOO_SHORT</a>
+</h2>
+<p>
+<br/>
+<br/>
+</p>
+</body>
+</html>
